@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRS Decor | Pisos Vinílicos & Laminados de Alto Padrão em São Paulo</title>
+  <meta name="description" content="Especialistas em pisos vinílicos e laminados em São Paulo e Grande SP. Pacote completo com fornecimento, instalação técnica especializada e 14 anos de tradição.">
+  <meta name="keywords" content="pisos vinilicos sp, pisos laminados sp, trs decor, instalacao de piso vinilico, eucafloor, ruffino, ospefloor, vexa">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" href="images/IMG-20260908-WA0002.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER FIXO
+       ========================================== -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" aria-label="TRS Decor - Início">
+        <img src="images/IMG-20260908-WA0002.jpg" alt="Logo TRS Decor" width="48" height="48">
+        <span class="logo-text">TRS <span>DECOR</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Menu Principal">
+        <ul class="nav-list" style="display: flex; gap: 28px;">
+          <li><a href="#produtos" class="nav-link">Pisos & Marcas</a></li>
+          <li><a href="#simulador" class="nav-link">Simulador</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#galeria" class="nav-link">Obras Executadas</a></li>
+          <li><a href="#regioes" class="nav-link">Regiões em SP</a></li>
+          <li><a href="#depoimentos" class="nav-link">Avaliações</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="btn btn-sm btn-primary" data-cta="header">
+          <span>Solicitar Orçamento</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="images/IMG-20260908-WA0002.jpg" alt="TRS Decor" width="36" height="36" style="border-radius: 50%;">
+        <strong style="color: #FFF; font-family: var(--font-heading);">TRS DECOR</strong>
+      </div>
+      <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Fechar">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#produtos" class="mobile-nav-link">Pisos & Marcas</a></li>
+      <li><a href="#simulador" class="mobile-nav-link">Simulador de Projeto</a></li>
+      <li><a href="#diferenciais" class="mobile-nav-link">14 Anos de Tradição</a></li>
+      <li><a href="#galeria" class="mobile-nav-link">Obras Reais em SP</a></li>
+      <li><a href="#regioes" class="mobile-nav-link">Regiões Atendidas</a></li>
+      <li><a href="#depoimentos" class="mobile-nav-link">Depoimentos</a></li>
+      <li><a href="#faq" class="mobile-nav-link">Perguntas Frequentes</a></li>
+    </ul>
+    <div>
+      <a href="#" class="btn btn-primary btn-block" data-cta="drawer">
+        Pedir Orçamento Oficial
+      </a>
+      <p style="font-size: 0.78rem; color: var(--text-muted); text-align: center; margin-top: 12px;">
+        Atendimento seg a sex das 09h às 18h
+      </p>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="images/pexels-artbovich-6489122.jpg" alt="Piso nobre aplicado TRS Decor" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-tag">
+          <span class="hero-tag-pulse"></span>
+          <span class="hero-tag-text">PACOTE COMPLETO COM MATERIAL E INSTALAÇÃO • SÃO PAULO & GRANDE SP</span>
+        </div>
+
+        <h1 class="hero-title reveal-up">
+          Acabamentos que transformam, <br>
+          <span class="highlight-gold">detalhes que encantam.</span>
+        </h1>
+
+        <p class="hero-subtitle reveal-up delay-1">
+          Especialistas em <strong>Pisos Vinílicos e Laminados</strong> das melhores marcas mundiais com pacote fechado: material de 1ª linha, instalação técnica de precisão e <strong>14 anos de tradição</strong> garantindo o acabamento impecável do seu imóvel.
+        </p>
+
+        <div class="hero-badges-row reveal-up delay-2">
+          <div class="hero-badge-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>1 Ano de Garantia na Instalação</span>
+          </div>
+          <div class="hero-badge-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>10 a 12 Anos de Garantia de Fábrica</span>
+          </div>
+          <div class="hero-badge-pill">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>14 Anos de Credibilidade em SP</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group reveal-up delay-3">
+          <a href="#" class="btn btn-lg btn-primary btn-glow" data-cta="hero">
+            <span>SOLICITAR PROPOSTA SOB MEDIDA</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#simulador" class="btn btn-lg btn-glass">
+            <span>Simular Meu Projeto</span>
+          </a>
+        </div>
+
+        <div class="hero-stats reveal-up">
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">14 <span>anos</span></div>
+            <div class="hero-stat-desc">Tradição e excelência em São Paulo</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">100%</div>
+            <div class="hero-stat-desc">Mão de obra própria e qualificada</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-num">+12 <span>anos</span></div>
+            <div class="hero-stat-desc">Garantia estrutural nos produtos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PRODUTOS & MARCAS ATENDIDAS
+         ========================================== -->
+    <section class="section section-products" id="produtos">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="badge-pill">PRODUTOS SELECIONADOS</span>
+          <h2 class="section-title">Pisos Vinílicos & Laminados de Alto Padrão</h2>
+          <p class="section-subtitle">
+            Trabalhamos exclusivamente com marcas consagradas do mercado e oferecemos soluções completas com preparação de contrapiso, nivelamento, aplicação e rodapés.
+          </p>
+        </div>
+
+        <div class="products-grid">
+          
+          <!-- Card 1: Vinílico -->
+          <div class="product-card reveal-up">
+            <div class="product-media">
+              <img src="images/IMG-20260908-WA0025.jpg" alt="Piso Vinílico instalado em ambiente integrado TRS Decor" loading="lazy">
+              <span class="product-tag">100% Resistente à Água</span>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-category">CONFORTO TÉRMICO & SILÊNCIO</span>
+                <h3 class="product-name">Piso Vinílico Colado</h3>
+                <p class="product-desc">
+                  O queridinho dos arquitetos para salas, quartos, cozinhas e lavabos. Proporciona pisar suave, é atérmico (sem chão frio) e reduz completamente o ruído de passos.
+                </p>
+
+                <div class="brands-pill-wrap">
+                  <span style="font-size: 0.76rem; color: var(--gold-light); font-weight: 700;">Marcas Oficiais:</span>
+                  <span class="brand-badge">Ospefloor</span>
+                  <span class="brand-badge">RUFFINO</span>
+                  <span class="brand-badge">Vexa</span>
+                </div>
+
+                <div class="features-list">
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Imunidade total à água e umidade diária</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Absorção acústica sem o ruído oco de calçados</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Pacote fechado: Material + Nivelamento + Instalação</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-footer-cta">
+                <a href="#" class="btn btn-outline btn-block" data-cta="card-vinilico" data-product="vinilico">
+                  Solicitar Cotação de Piso Vinílico
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Laminado -->
+          <div class="product-card reveal-up delay-1">
+            <div class="product-media">
+              <img src="images/IMG-20260908-WA0011.jpg" alt="Piso Laminado instalado com rodapé branco TRS Decor" loading="lazy">
+              <span class="product-tag">Instalação Rápida & Prática</span>
+            </div>
+            <div class="product-body">
+              <div>
+                <span class="product-category">ELEGÂNCIA & CUSTO-BENEFÍCIO</span>
+                <h3 class="product-name">Piso Laminado Clicado</h3>
+                <p class="product-desc">
+                  A estética atemporal e nobre da madeira com instalação veloz através do moderno sistema click. Perfeito para dormitórios, closets, salas e escritórios.
+                </p>
+
+                <div class="brands-pill-wrap">
+                  <span style="font-size: 0.76rem; color: var(--gold-light); font-weight: 700;">Marca Oficial:</span>
+                  <span class="brand-badge">Eucafloor</span>
+                  <span class="brand-badge">Sistema Clicado</span>
+                </div>
+
+                <div class="features-list">
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Instalação ultra limpa sem poeira excessiva</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Alta resistência a riscos e impacto do dia a dia</span>
+                  </div>
+                  <div class="feature-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Pacote fechado: Piso Eucafloor + Manta + Mão de obra</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-footer-cta">
+                <a href="#" class="btn btn-outline btn-block" data-cta="card-laminado" data-product="laminado">
+                  Solicitar Cotação de Piso Laminado
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         SIMULADOR DE ESCOPO DO PROJETO
+         ========================================== -->
+    <section class="section section-simulador" id="simulador">
+      <div class="container">
+        <div class="simulador-card reveal-up">
+          
+          <div class="simulador-info">
+            <span class="badge-pill">PLANEJAMENTO INTELIGENTE</span>
+            <h2 class="simulador-title">Configure a Metragem do seu Ambiente</h2>
+            <p class="simulador-desc">
+              Informe a área aproximada do seu espaço para calcularmos o pacote completo com réguas, mantas/colas especiais, rodapés e equipe técnica própria da TRS Decor.
+            </p>
+
+            <div class="simulador-highlights">
+              <div class="simulador-item">
+                <div class="simulador-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span>Sem intermediários: contato direto com consultores especialistas</span>
+              </div>
+              <div class="simulador-item">
+                <div class="simulador-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <span>Garantia de 1 ano na instalação e 10 a 12 anos de fábrica</span>
+              </div>
+              <div class="simulador-item">
+                <div class="simulador-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <span>Atendimento comercial das 09h às 18h em toda a Grande SP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Caixa Interativa -->
+          <div class="simulador-box">
+            <div class="form-step-title">1. Escolha a Linha Desejada:</div>
+            
+            <div class="product-selector-tabs">
+              <button type="button" class="tab-btn active" data-prod="laminado">
+                <strong>Piso Laminado</strong>
+                <span>Eucafloor Clicado</span>
+              </button>
+              <button type="button" class="tab-btn" data-prod="vinilico">
+                <strong>Piso Vinílico</strong>
+                <span>Ospefloor, RUFFINO, Vexa</span>
+              </button>
+            </div>
+
+            <div class="range-wrap">
+              <div class="range-header-bar">
+                <span class="form-step-title" style="margin-bottom: 0;">2. Metragem Estimada:</span>
+                <span class="sqm-badge" id="sqm-display">40 m²</span>
+              </div>
+              <input type="range" id="range-slider" min="15" max="250" step="5" value="40" class="range-slider-trs">
+              <div class="range-ticks">
+                <span>15 m²</span>
+                <span>80 m²</span>
+                <span>150 m²</span>
+                <span>250+ m²</span>
+              </div>
+            </div>
+
+            <div class="summary-scope-card">
+              <div class="summary-scope-title">Resumo do Projeto Selecionado</div>
+              <div class="summary-scope-value" id="summary-product-name">Piso Laminado Clicado Eucafloor</div>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 4px;" id="summary-scope-details">
+                Metragem estimada: 40 m² • Pacote Completo (Material + Instalação Especializada + Rodapés)
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-primary btn-block btn-lg" id="btn-simulador-action" data-cta="simulador-btn">
+              <span>AVANÇAR PARA PROPOSTA PERSONALIZADA</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DIFERENCIAIS & 14 ANOS DE MERCADO
+         ========================================== -->
+    <section class="section section-diff" id="diferenciais">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="badge-pill">COMPROMISSO & CONFIANÇA</span>
+          <h2 class="section-title">Por que Escolher a TRS Decor?</h2>
+          <p class="section-subtitle">
+            Construímos mais de uma década de história combinando os melhores materiais com uma execução precisa e sem surpresas.
+          </p>
+        </div>
+
+        <div class="diff-grid">
+          
+          <div class="diff-box reveal-up">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>14 Anos de Mercado</h3>
+            <p>Experiência consolidada atendendo centenas de famílias, escritórios e condomínios com total credibilidade em São Paulo.</p>
+          </div>
+
+          <div class="diff-box reveal-up delay-1">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Garantia Dupla</h3>
+            <p>1 ano completo de garantia na nossa mão de obra e instalação + 10 a 12 anos de garantia oficial dos fabricantes.</p>
+          </div>
+
+          <div class="diff-box reveal-up delay-2">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Marcas Certificadas</h3>
+            <p>Revenda autorizada de pisos Ospefloor, RUFFINO, Vexa e Eucafloor. Qualidade assegurada em cada metro quadrado.</p>
+          </div>
+
+          <div class="diff-box reveal-up">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>Acessibilidade Financeira</h3>
+            <p>Condições facilitadas de pagamento e pacotes especiais de reforma para você transformar seu ambiente com tranquilidade.</p>
+          </div>
+
+          <div class="diff-box reveal-up delay-1">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Pacote Tudo Incluso</h3>
+            <p>Chega de surpresas na obra: incluímos piso, preparação necessária, mantas, colas ecológicas e rodapés combinando.</p>
+          </div>
+
+          <div class="diff-box reveal-up delay-2">
+            <div class="diff-icon-circle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Compromisso com Prazos</h3>
+            <p>Execução rápida e pontual para você se mudar ou inaugurar seu ambiente sem dor de cabeça e sem atrasos.</p>
+          </div>
+
+        </div>
+
+        <!-- Banner de Cobertura Regional SP -->
+        <div class="regions-banner reveal-up" id="regioes">
+          <div class="regions-info">
+            <h4>Cobertura Completa em São Paulo e Região Metropolitana</h4>
+            <p>Levamos amostras físicas, realizamos medição in loco e executamos seu projeto com equipe própria nas principais regiões:</p>
+            
+            <div class="regions-tags">
+              <span class="region-tag">São Paulo Capital</span>
+              <span class="region-tag">Barra Funda</span>
+              <span class="region-tag">Tucuruvi</span>
+              <span class="region-tag">Tatuapé</span>
+              <span class="region-tag">Itaquera</span>
+              <span class="region-tag">Campo Limpo</span>
+              <span class="region-tag">Guarulhos (Bonsucesso)</span>
+              <span class="region-tag">Arujá</span>
+              <span class="region-tag">São Bernardo do Campo</span>
+              <span class="region-tag">Santo André</span>
+              <span class="region-tag">Mogi das Cruzes</span>
+              <span class="region-tag">Suzano</span>
+              <span class="region-tag">Itaquaquecetuba</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-primary" data-cta="regioes" style="flex-shrink: 0;">
+            Verificar Meu Bairro
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         GALERIA DE OBRAS REAIS
+         ========================================== -->
+    <section class="section section-gallery" id="galeria">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="badge-pill">TRANSFORMAÇÃO COMPROVADA</span>
+          <h2 class="section-title">Obras Reais Executadas pela TRS Decor</h2>
+          <p class="section-subtitle">
+            Veja detalhes de acabamentos milimétricos, rodapés elegantes e encaixes perfeitos entregues nos lares de nossos clientes.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          
+          <div class="gallery-card reveal-up" onclick="openLightbox(0)">
+            <img src="images/IMG-20260908-WA0011.jpg" alt="Dormitório master com piso vinílico amadeirado" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Dormitório Master</h4>
+              <p>Piso Vinílico Amadeirado & Rodapé Branco</p>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal-up delay-1" onclick="openLightbox(1)">
+            <img src="images/IMG-20260908-WA0016.jpg" alt="Corredor integrado com nivelamento técnico" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Corredor Integrado & Hall</h4>
+              <p>Nivelamento técnico sem desníveis</p>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal-up delay-2" onclick="openLightbox(2)">
+            <img src="images/IMG-20260908-WA0025.jpg" alt="Piso vinílico colado sob pia e área úmida" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Cozinha & Área Úmida</h4>
+              <p>Resistência absoluta ao contato com água</p>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal-up" onclick="openLightbox(3)">
+            <img src="images/IMG-20260908-WA0026.jpg" alt="Acabamento fino em réguas de piso" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Alinhamento Milimétrico</h4>
+              <p>Encaixe suave e réguas perfeitamente assentadas</p>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal-up delay-1" onclick="openLightbox(4)">
+            <img src="images/pexels-artbovich-6489122.jpg" alt="Sala ampla com piso laminado nobre" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Living Contemporâneo</h4>
+              <p>Piso Laminado Clicado Eucafloor</p>
+            </div>
+          </div>
+
+          <div class="gallery-card reveal-up delay-2" onclick="openLightbox(5)">
+            <img src="images/pexels-pixabay-271624.jpg" alt="Sala de estar moderna e iluminada" loading="lazy">
+            <div class="gallery-overlay-trs">
+              <span class="gallery-zoom-icon">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <h4>Ambiente Decorado</h4>
+              <p>Conforto térmico de alta durabilidade</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Lightbox -->
+    <div class="lightbox-modal" id="lightbox-modal">
+      <div class="lightbox-backdrop" onclick="closeLightbox()"></div>
+      <div class="lightbox-container">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fechar">&times;</button>
+        <button class="lightbox-nav lightbox-prev" onclick="changeLightbox(-1)" aria-label="Anterior">&#10094;</button>
+        <img src="" id="lightbox-img" class="lightbox-img-trs" alt="Foto ampliada TRS Decor">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+        <button class="lightbox-nav lightbox-next" onclick="changeLightbox(1)" aria-label="Próxima">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- ==========================================
+         DEPOIMENTOS DE CLIENTES
+         ========================================== -->
+    <section class="section section-reviews" id="depoimentos">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="badge-pill">DEPOIMENTOS REAIS</span>
+          <h2 class="section-title">O que Dizem Quem Já Instalou com a TRS</h2>
+          <p class="section-subtitle">
+            Avaliações de clientes residenciais e comerciais em São Paulo e região.
+          </p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <div class="review-card reveal-up">
+            <div class="review-stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Fizemos a instalação do vinílico RUFFINO no nosso apartamento no Tatuapé. A equipe da TRS é extremamente caprichosa, os rodapés brancos ficaram perfeitos e a entrega ocorreu antes do prazo!"
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">MS</div>
+              <div>
+                <div class="author-name">Marcela Silveira</div>
+                <div class="author-loc">Tatuapé • São Paulo</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card reveal-up delay-1">
+            <div class="review-stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Colocamos piso laminado Eucafloor em 3 dormitórios na nossa casa em Santo André. O pacote fechado com tudo incluso foi o diferencial. Sem surpresas com custos adicionais."
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">FA</div>
+              <div>
+                <div class="author-name">Fernando Alencar</div>
+                <div class="author-loc">Santo André • ABC Paulista</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card reveal-up delay-2">
+            <div class="review-stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="review-text">
+              "Como arquiteta, recomendo a TRS de olhos fechados. Os 14 anos de mercado aparecem no capricho dos cantos, transições de soleira e pontualidade na entrega das obras."
+            </p>
+            <div class="review-author">
+              <div class="author-avatar">CL</div>
+              <div>
+                <div class="author-name">Camila Linhares</div>
+                <div class="author-loc">Arquiteta • Barra Funda SP</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FAQ — DÚVIDAS FREQUENTES
+         ========================================== -->
+    <section class="section section-faq" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center reveal-up">
+          <span class="badge-pill">ESCLAREÇA SUAS DÚVIDAS</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-subtitle">Tudo o que você precisa saber sobre o nosso pacote completo de pisos e instalação.</p>
+        </div>
+
+        <div class="faq-list">
+          
+          <div class="faq-item reveal-up">
+            <button class="faq-header-btn">
+              <span>O que está incluso no pacote completo da TRS Decor?</span>
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>Nosso pacote inclui o fornecimento do piso de 1ª linha (Ospefloor, RUFFINO, Vexa ou Eucafloor), mão de obra de instalação especializada, preparação técnica e aplicação dos rodapés. Você recebe o ambiente 100% pronto para uso.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up">
+            <button class="faq-header-btn">
+              <span>Como funcionam as garantias dos produtos e serviços?</span>
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>Você conta com garantia de 1 ano diretamente com a TRS Decor na mão de obra de instalação, além da garantia de fábrica dos pisos que varia de 10 a 12 anos contra defeitos de fabricação.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up">
+            <button class="faq-header-btn">
+              <span>É possível instalar o piso por cima de piso cerâmico já existente?</span>
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>Sim! O piso vinílico ou laminado pode ser aplicado sobre cerâmicas e porcelanatos nivelados, aplicando uma massa de preparação técnica sobre os rejuntes. Isso elimina quebra-quebra, barulho excessivo e caçambas de entulho.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up">
+            <button class="faq-header-btn">
+              <span>Quais cidades e regiões a TRS Decor atende?</span>
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>Atendemos toda a cidade de São Paulo (Barra Funda, Tucuruvi, Tatuapé, Itaquera, Campo Limpo, etc.), além de Guarulhos, Arujá, São Bernardo do Campo, Santo André, Mogi das Cruzes, Suzano e Itaquaquecetuba.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal-up">
+            <button class="faq-header-btn">
+              <span>Qual é o horário de atendimento da equipe comercial?</span>
+              <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-content">
+              <p>Nossa equipe técnica e comercial atende de segunda a sexta-feira, das 09:00 às 18:00, garantindo atendimento ágil e visitas técnicas agendadas.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         MASTER CARD FINAL DE CONVERSÃO
+         ========================================== -->
+    <section class="section section-cta-final">
+      <div class="container">
+        <div class="cta-final-box reveal-up">
+          <span class="badge-pill">14 ANOS DE EXCELÊNCIA</span>
+          
+          <h2 class="cta-final-title">
+            Transforme seu ambiente com a garantia e o requinte da <span class="highlight-gold">TRS Decor</span>.
+          </h2>
+
+          <p class="cta-final-desc">
+            Solicite sua proposta sob medida agora mesmo. Nossa equipe especialista avaliará sua metragem e enviará a melhor condição para seu imóvel em São Paulo e região metropolitana.
+          </p>
+
+          <a href="#" class="btn btn-lg btn-primary btn-glow" data-cta="final">
+            <span>SOLICITAR PROPOSTA SOB MEDIDA</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+
+          <div class="cta-guarantees-row">
+            <div class="guarantee-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>1 Ano de Garantia na Instalação</span>
+            </div>
+            <div class="guarantee-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>10 a 12 Anos nos Produtos</span>
+            </div>
+            <div class="guarantee-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>14 Anos de Tradição</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       RODAPÉ
+       ========================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-wrap">
+          <div class="footer-brand-logo">
+            <img src="images/IMG-20260908-WA0002.jpg" alt="TRS Decor" width="44" height="44">
+            <span class="logo-text">TRS <span>DECOR</span></span>
+          </div>
+          <p class="footer-desc">
+            Empresa especializada em pisos vinílicos e laminados de alto padrão em São Paulo e Grande SP. Pacote fechado com instalação de precisão e materiais certificados.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--gold-light); font-weight: 700;">
+            Horário de Atendimento: Seg a Sex das 09h às 18h
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Produtos</h4>
+          <ul class="footer-links">
+            <li><a href="#produtos">Pisos Vinílicos Colados</a></li>
+            <li><a href="#produtos">Pisos Laminados Clicados</a></li>
+            <li><a href="#produtos">Pisos Ospefloor & RUFFINO</a></li>
+            <li><a href="#produtos">Pisos Eucafloor & Vexa</a></li>
+            <li><a href="#simulador">Simulador de Projeto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Cobertura SP</h4>
+          <ul class="footer-links">
+            <li><a href="#regioes">São Paulo Capital</a></li>
+            <li><a href="#regioes">Guarulhos & Bonsucesso</a></li>
+            <li><a href="#regioes">ABC Paulista (Santo André e SBC)</a></li>
+            <li><a href="#regioes">Arujá & Mogi das Cruzes</a></li>
+            <li><a href="#regioes">Suzano & Itaquaquecetuba</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atendimento</h4>
+          <p class="footer-desc" style="margin-bottom: 14px;">
+            Preencha nossa simulação para receber o contato comercial prioritário da nossa equipe.
+          </p>
+          <a href="#" class="btn btn-sm btn-outline" data-cta="footer">
+            Iniciar Solicitação Online
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 TRS Decor • Pisos Laminados & Vinílicos. Todos os direitos reservados.</p>
+        <p class="footer-pixel">Acabamentos que Transformam, Detalhes que Encantam</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Bar -->
+  <div class="mobile-sticky-bar" id="mobile-sticky-bar">
+    <div class="sticky-info">
+      <span class="sticky-title">TRS Decor • Pacote Completo</span>
+      <span class="sticky-subtitle">Material + Instalação</span>
+    </div>
+    <a href="#" class="btn btn-primary btn-sm" data-cta="mobile-bar">
+      <span>Pedir Orçamento</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

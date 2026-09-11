@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitação Confirmada | TRS Decor</title>
+  <meta name="robots" content="noindex, follow">
+
+  <link rel="icon" href="images/IMG-20260908-WA0002.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .thanks-wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.15) 0%, rgba(11, 13, 18, 1) 75%);
+    }
+
+    .thanks-card-box {
+      max-width: 680px;
+      margin: 80px auto;
+      padding: 50px 40px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-xl);
+      text-align: center;
+      box-shadow: var(--shadow-lg), 0 0 40px rgba(212, 175, 55, 0.15);
+    }
+
+    .icon-success-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: var(--gold-gradient);
+      color: #0B0D11;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
+    }
+
+    .thanks-title {
+      font-size: 2.3rem;
+      margin-bottom: 14px;
+    }
+
+    .thanks-text {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+
+    .steps-check {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      text-align: left;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .step-line {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.92rem;
+      color: #FFFFFF;
+    }
+
+    .step-line-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--gold-soft);
+      border: 1px solid var(--border-gold);
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body class="thanks-wrapper">
+
+  <header style="padding: 24px 0; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+    <a href="index.html" style="display: inline-flex; align-items: center; gap: 12px;">
+      <img src="images/IMG-20260908-WA0002.jpg" alt="TRS Decor" width="44" height="44" style="border-radius: 50%;">
+      <span class="logo-text">TRS <span>DECOR</span></span>
+    </a>
+  </header>
+
+  <main class="container">
+    <div class="thanks-card-box">
+      <div class="icon-success-circle">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+
+      <h1 class="thanks-title">Solicitação Recebida com Sucesso!</h1>
+      <p class="thanks-text">
+        Agradecemos pelo seu interesse nos pisos e acabamentos da <strong>TRS Decor</strong>. Nossos consultores técnicos em São Paulo já estão analisando os detalhes do seu projeto.
+      </p>
+
+      <div class="steps-check">
+        <div class="step-line">
+          <span class="step-line-num">1</span>
+          <span>Seus dados e estimativa de metragem foram cadastrados com segurança.</span>
+        </div>
+        <div class="step-line">
+          <span class="step-line-num">2</span>
+          <span>Verificamos a melhor combinação de material e acabamentos para sua região em SP.</span>
+        </div>
+        <div class="step-line">
+          <span class="step-line-num">3</span>
+          <span>Entraremos em contato com a proposta completa e agendamento técnico.</span>
+        </div>
+      </div>
+
+      <a href="index.html" class="btn btn-primary btn-lg btn-block">
+        Voltar para a Página Principal
+      </a>
+    </div>
+  </main>
+
+  <footer style="padding: 20px 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.06); font-size: 0.82rem; color: var(--text-subtle);">
+    <p>© 2026 TRS Decor • 14 Anos de Excelência em Pisos Vinílicos & Laminados</p>
+  </footer>
+
+</body>
+</html>
