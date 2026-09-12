@@ -148,9 +148,6 @@ function initSimulator() {
 
 /* ── 5. GALERIA & LIGHTBOX ───────────────────────────────────────────────── */
 const galleryData = [
-  { src: 'images/IMG-20260908-WA0011.jpg', title: 'Dormitório Master', sub: 'Piso Vinílico Amadeirado Acetinado com Rodapé Branco' },
-  { src: 'images/IMG-20260908-WA0016.jpg', title: 'Corredor Integrado & Hall', sub: 'Instalação Perfeita com Nivelamento Técnico' },
-  { src: 'images/IMG-20260908-WA0025.jpg', title: 'Cozinha & Área Úmida', sub: 'Resistência Total à Água e Alta Praticidade' },
   { src: 'images/IMG-20260908-WA0026.jpg', title: 'Ambiente com Acabamento Fino', sub: 'Réguas Alinhadas com Encaixe Milimétrico' },
   { src: 'images/pexels-artbovich-6489122.jpg', title: 'Sala de Estar Contemporânea', sub: 'Piso Laminado Clicado Eucafloor de Alto Padrão' },
   { src: 'images/pexels-pixabay-271624.jpg', title: 'Living Amplo & Aconchegante', sub: 'Conforto Térmico e Acústico de 1ª Linha' }
