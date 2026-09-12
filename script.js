@@ -6,10 +6,9 @@
 
 /* ── CONFIGURAÇÃO CENTRAL DE CONVERSÃO ───────────────────────────────────── */
 const CONFIG = {
-  // Destino padrão dos CTAs: direciona para a página de integração do formulário
-  targetUrl: 'em-construcao.html',
-  respondiFallback: 'https://form.respondi.app/trs-decor',
-  useExternalForm: false // Alternar para true quando o link oficial do Respondi for ativado
+  targetUrl: 'https://form.respondi.app/RfLLVWUd',
+  respondiFallback: 'https://form.respondi.app/RfLLVWUd',
+  useExternalForm: true
 };
 
 document.addEventListener('DOMContentLoaded', () => {
