@@ -148,8 +148,8 @@ function initSimulator() {
 /* ── 5. GALERIA & LIGHTBOX ───────────────────────────────────────────────── */
 const galleryData = [
   { src: 'images/IMG-20260908-WA0026.jpg', title: 'Ambiente com Acabamento Fino', sub: 'Réguas Alinhadas com Encaixe Milimétrico' },
-  { src: 'images/nova-trs1-vinilico.jpeg', title: 'Piso Vinílico', sub: 'Acabamento Impecável em Ambiente Residencial' },
-  { src: 'images/nova-trs2-laminado.jpeg', title: 'Piso Laminado', sub: 'Elegância e Conforto Térmico e Acústico' }
+  { src: 'images/trs-troca-1.jpeg', title: 'Living Contemporâneo', sub: 'Piso Laminado Clicado Eucafloor' },
+  { src: 'images/trs-troca-2.jpeg', title: 'Living Amplo & Aconchegante', sub: 'Conforto Térmico e Acústico de 1ª Linha' }
 ];
 
 let currentLightboxIndex = 0;
